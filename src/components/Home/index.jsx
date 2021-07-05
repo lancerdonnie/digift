@@ -6,12 +6,7 @@ import back from './back.svg';
 
 const Home = () => {
   return (
-    <div
-      className="home"
-      style={{
-        backgroundImage: `url(${back})?inline`,
-      }}
-    >
+    <div className="home">
       <div className="home__main">
         <div className="home__main__title">
           <span>Best Cards</span> at your disposal
