@@ -1,0 +1,19 @@
+.bg-main {
+  background-color: #0e0244;
+}
+
+.bd-alt {
+  border-color: #0078ff;
+}
+
+.color-alt {
+  color: #0078ff;
+}
+
+button {
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+  padding: 13px 20px;
+  border: 2px solid white;
+}

@@ -1,0 +1,12 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 65px;
+}
+
+.nav__item {
+  display: flex;
+}
+.nav__item > div {
+  padding: 13px 20px;
+}
