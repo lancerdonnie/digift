@@ -1,4 +1,42 @@
 .home {
   background-color: #f9fafc;
-  min-height: 75vh;
+  flex: 1;
+  background-image: url(./back.svg);
+  background-size: 100% 100%;
+  background-size: cover;
+  padding: 6.25rem 6.25rem 0 6.25rem;
+  position: relative;
+}
+
+.home__main {
+  max-width: 39.375rem;
+}
+
+.home__main__title {
+  font-size: 5.938rem;
+  line-height: 6.313rem;
+  font-weight: 700;
+}
+
+.home__main__title span {
+  color: #4355ff;
+}
+
+.home__buttons {
+  margin-top: 2.313rem;
+  display: flex;
+  align-items: center;
+  gap: 1.188rem;
+}
+
+.home__pic {
+  height: 100%;
+}
+.home__pic > img {
+  position: absolute;
+  right: 3.375rem;
+  top: 2.688rem;
+  bottom: 0;
+  max-height: 100%;
+  z-index: 2;
 }

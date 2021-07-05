@@ -5,10 +5,8 @@ import Nav from './components/Nav/Nav';
 import Home from './components/Home';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div>
+    <div className="App">
       <Nav />
       <Home />
     </div>

@@ -2,18 +2,36 @@
   background-color: #0e0244;
 }
 
+.bg-alt {
+  background-color: #0078ff;
+}
+
 .bd-alt {
   border-color: #0078ff;
+}
+
+.bd-alt-2 {
+  border-color: #c4c4c4;
 }
 
 .color-alt {
   color: #0078ff;
 }
+.color-alt-2 {
+  color: #c4c4c4;
+}
+
+.br-alt {
+  border-radius: 5px;
+}
 
 button {
   border-radius: 10px;
   color: white;
-  font-size: 14px;
-  padding: 13px 20px;
+  font-size: 0.875rem;
+  padding: 0.813rem 1.25rem;
   border: 2px solid white;
+  background-color: white;
+  cursor: pointer;
+  letter-spacing: 1.25px;
 }

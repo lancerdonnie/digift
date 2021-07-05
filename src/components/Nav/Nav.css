@@ -1,12 +1,14 @@
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 30px 65px;
+  align-items: center;
+  padding: 1.875rem 4.063rem;
+  height: 6.25rem;
+  font-weight: 700;
 }
 
 .nav__item {
   display: flex;
-}
-.nav__item > div {
-  padding: 13px 20px;
+  align-items: center;
+  gap: 10px;
 }
