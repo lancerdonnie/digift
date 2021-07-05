@@ -2,10 +2,16 @@ import React from 'react';
 import './Home.css';
 import Button from '../Button';
 import man from './manpng 1.png';
+import back from './back.svg';
 
 const Home = () => {
   return (
-    <div className="home">
+    <div
+      className="home"
+      style={{
+        backgroundImage: `url(${back})`,
+      }}
+    >
       <div className="home__main">
         <div className="home__main__title">
           <span>Best Cards</span> at your disposal
