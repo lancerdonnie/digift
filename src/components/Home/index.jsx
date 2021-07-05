@@ -25,28 +25,8 @@ const Home = () => {
       <div className="home__pic">
         <img src={man} alt="man image" />
       </div>
-      <div
-        style={{
-          height: '18.438rem',
-          width: '32.125rem',
-          backgroundColor: 'white',
-          transform: 'rotate(40.38deg)',
-          position: 'absolute',
-          bottom: '-6.25rem',
-          left: '-10rem',
-        }}
-      />
-      <div
-        style={{
-          height: '27.531rem',
-          width: '47.97rem',
-          backgroundColor: 'white',
-          transform: 'rotate(40.38deg)',
-          position: 'absolute',
-          bottom: '8.75rem',
-          right: '-10rem',
-        }}
-      />
+      <div className="home__rect--1" />
+      <div className="home__rect--2" />
     </div>
   );
 };

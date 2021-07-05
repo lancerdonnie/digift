@@ -6,6 +6,7 @@
   background-size: cover;
   padding: 6.25rem 6.25rem 0 6.25rem;
   position: relative;
+  z-index: -3;
 }
 
 .home__main {
@@ -38,5 +39,48 @@
   top: 2.688rem;
   bottom: 0;
   max-height: 100%;
-  z-index: 2;
+}
+
+.home__rect--1 {
+  height: 18.438rem;
+  width: 32.125rem;
+  background-color: white;
+  transform: rotate(40.38deg);
+  position: absolute;
+  bottom: -6.25rem;
+  left: -10rem;
+  z-index: -1;
+}
+
+.home__rect--2 {
+  height: 27.531rem;
+  width: 47.97rem;
+  background-color: white;
+  transform: rotate(40.38deg);
+  position: absolute;
+  bottom: 8.75rem;
+  right: -10rem;
+  z-index: -1;
+}
+
+@media only screen and (min-height: 760px) {
+  .home__rect--2 {
+    bottom: -2rem;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .home {
+    padding: 3rem 3rem 0 3rem;
+    text-align: center;
+  }
+  .home__pic > img {
+    display: none;
+  }
+  .home__rect--1,
+  .home__rect--2 {
+    display: none;
+  }
+  .home__main {
+    max-width: unset;
+  }
 }
