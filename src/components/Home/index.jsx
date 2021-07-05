@@ -2,7 +2,6 @@ import React from 'react';
 import './Home.css';
 import Button from '../Button';
 import man from './manpng 1.png';
-import back from './back.svg';
 
 const Home = () => {
   return (
