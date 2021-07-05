@@ -9,7 +9,7 @@ const Home = () => {
     <div
       className="home"
       style={{
-        backgroundImage: `url(${back})`,
+        backgroundImage: `url(${back})?inline`,
       }}
     >
       <div className="home__main">
